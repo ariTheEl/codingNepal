@@ -1,0 +1,1 @@
+This is a follow along from CodingNepal's "Design a simple website using HTML and CSS" video on YouTube.
