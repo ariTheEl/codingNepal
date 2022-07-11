@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.wrapper{
+    background:url(../images/pexels-jonathan-borba-3292698.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.navbar{
+    height: 100px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.3);
+
+}
+.logo{
+    height: auto;
+    padding:20px;
+}
+.navbar ul{
+    float: right;
+    margin-right: 20px;
+}
+.navbar ul li{
+    list-style:none;
+    display: inline-block;
+    margin: 0 8px;
+    line-height: 80px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color:rgb(243, 218, 77);
+    font-size: 20px;
+    padding: 1.8px, 7px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.navbar ul li a.active,
+.navbar ul li a:hover{
+    background-color: black;
+    color: gold;
+    border-radius: 2px;
+}
+.center{
+    position: absolute;
+    top: 50%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    user-select:none;
+}
+h1{
+    color: gold;
+    font-size: 60px;
+    font-weight:bold ;
+    width: 900px;
+    text-align: center;
+}
+h2{
+    color: gold;
+    font-size: 55px;
+    font: weight 600px; ;
+    width: 700px;
+    margin-top: 10px;
+    text-align: center;
+}
+.buttons{
+    margin: 35px 300px;
+    display: flex;
+}
+button{
+    height: 50px;
+    width: 150px;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(243, 218, 77);
+    background-color: rgba(247, 247, 246, 0.718);
+    border: 2px solid rgb(243, 218, 77);
+    margin-right: 20px;
+    cursor:pointer;
+    border-radius: 25px;
+    transition: .5s;
+}
+.btn{
+    margin-left:25px ;
+}
+button:hover{
+    background-color: black;
+    color: gold;
+}
